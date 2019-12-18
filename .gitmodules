@@ -1,0 +1,21 @@
+[submodule "libs/Buttons_Switches_Keyboard.pretty"]
+	path = libs/Buttons_Switches_Keyboard.pretty
+	url = https://github.com/KiCad/Buttons_Switches_Keyboard.pretty.git
+[submodule "libs/Keebio-Parts.pretty"]
+	path = libs/Keebio-Parts.pretty
+	url = https://github.com/keebio/Keebio-Parts.pretty.git
+[submodule "libs/keyboard_parts.pretty"]
+	path = libs/keyboard_parts.pretty
+	url = https://github.com/colemarkham/keyboard_parts.pretty.git
+[submodule "libs/kicad_lib_tmk"]
+	path = libs/kicad_lib_tmk
+	url = https://github.com/tmk/kicad_lib_tmk.git
+[submodule "libs/random-keyboard-parts.pretty"]
+	path = libs/random-keyboard-parts.pretty
+	url = https://github.com/ai03-2725/random-keyboard-parts.pretty.git
+[submodule "libs/Type-C.pretty"]
+	path = libs/Type-C.pretty
+	url = https://github.com/ai03-2725/Type-C.pretty.git
+[submodule "libs/WS2812B.pretty"]
+	path = libs/WS2812B.pretty
+	url = https://github.com/madworm/WS2812B.pretty.git
