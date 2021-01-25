@@ -1,0 +1,2025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/fabian/Projekte/PCB/Shoto/Shoto.sch</source>
+    <date>Sun 24 Jan 2021 08:35:56 PM CET</date>
+    <tool>Eeschema 5.1.9</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Shoto.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/switch matrix/" tstamps="/5DFA1F76/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>matrix.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J101">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="Shoto-rescue" part="USB_C_Receptacle_USB2.0-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EAC4492</tstamp>
+    </comp>
+    <comp ref="C109">
+      <value>4.7n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C53987</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EAC5108</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C17927</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EAC5747</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C23186</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EAEF237</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C23186</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EAEF719</tstamp>
+    </comp>
+    <comp ref="U101">
+      <value>STM32F072C8Tx</value>
+      <footprint>Package_QFP:LQFP-48_7x7mm_P0.5mm</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB"> C80488</field>
+      </fields>
+      <libsource lib="MCU_ST_STM32F0" part="STM32F072CBUx" description="ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 2-3.6V, 37 GPIO, UFQFPN-48"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F16DA33</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F16ECA8</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F16F0EF</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F16F494</tstamp>
+    </comp>
+    <comp ref="C107">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F16F78B</tstamp>
+    </comp>
+    <comp ref="C106">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C19666</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F16FD23</tstamp>
+    </comp>
+    <comp ref="C108">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C19666</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F172CCE</tstamp>
+    </comp>
+    <comp ref="C104">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C57112</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F18624C</tstamp>
+    </comp>
+    <comp ref="U102">
+      <value>XC6206PxxxMR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.torexsemi.com/file/xc6206/XC6206.pdf</datasheet>
+      <fields>
+        <field name="JLCPCD">C5446</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="XC6206PxxxMR" description="Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F18D4C9</tstamp>
+    </comp>
+    <comp ref="C111">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB"> C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F18DCB6</tstamp>
+    </comp>
+    <comp ref="C110">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB"> C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F18E1FB</tstamp>
+    </comp>
+    <comp ref="SW101">
+      <value>TS-1187A-B-A-B</value>
+      <footprint>Keebio-Parts:SW_SPST_TL3342</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C318884</field>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1F9C25</tstamp>
+    </comp>
+    <comp ref="C105">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C19666</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3BCDC5</tstamp>
+    </comp>
+    <comp ref="U103">
+      <value>SRV05-4</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF</datasheet>
+      <fields>
+        <field name="JLCPCB">C85364</field>
+      </fields>
+      <libsource lib="Power_Protection" part="SRV05-4" description="ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F500814</tstamp>
+    </comp>
+    <comp ref="F101">
+      <value>ASMD1206-150</value>
+      <footprint>Fuse:Fuse_1206_3216Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C135341</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F55AEDA</tstamp>
+    </comp>
+    <comp ref="D101">
+      <value>SMF9.0CA</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C123799</field>
+      </fields>
+      <libsource lib="Diode" part="SD05_SOD323" description="5V, 450W Discrete Bidirectional TVS Diode, SOD-323"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4FEFFD</tstamp>
+    </comp>
+    <comp ref="D102">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C8598</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F516A84</tstamp>
+    </comp>
+    <comp ref="H105">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F524565</tstamp>
+    </comp>
+    <comp ref="H104">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F52498A</tstamp>
+    </comp>
+    <comp ref="H103">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F524F60</tstamp>
+    </comp>
+    <comp ref="H102">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F52546C</tstamp>
+    </comp>
+    <comp ref="H101">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F525959</tstamp>
+    </comp>
+    <comp ref="H106">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F525E8D</tstamp>
+    </comp>
+    <comp ref="J102">
+      <value>Case</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Female" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F293682</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C25803</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA7AB74</tstamp>
+    </comp>
+    <comp ref="C113">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C15849</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA7B343</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA7C442</tstamp>
+    </comp>
+    <comp ref="C112">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C19702</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA7DA7B</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FACC661</tstamp>
+    </comp>
+    <comp ref="Q101">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
+      <fields>
+        <field name="JLCPCB">C8545</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FACD68D</tstamp>
+    </comp>
+    <comp ref="K201">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFA2047</tstamp>
+    </comp>
+    <comp ref="K202">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFA2509</tstamp>
+    </comp>
+    <comp ref="K203">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFA41A9</tstamp>
+    </comp>
+    <comp ref="K204">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFA4661</tstamp>
+    </comp>
+    <comp ref="K205">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFA4AE8</tstamp>
+    </comp>
+    <comp ref="K206">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFA4E3F</tstamp>
+    </comp>
+    <comp ref="K207">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFA527D</tstamp>
+    </comp>
+    <comp ref="K208">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFA55B3</tstamp>
+    </comp>
+    <comp ref="K209">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFA5827</tstamp>
+    </comp>
+    <comp ref="K210">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFA5A33</tstamp>
+    </comp>
+    <comp ref="K211">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFA6424</tstamp>
+    </comp>
+    <comp ref="K212">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFA67E5</tstamp>
+    </comp>
+    <comp ref="K213">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFA6C6A</tstamp>
+    </comp>
+    <comp ref="K214">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFAE7FB</tstamp>
+    </comp>
+    <comp ref="K215">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFAE801</tstamp>
+    </comp>
+    <comp ref="K216">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFAE807</tstamp>
+    </comp>
+    <comp ref="K217">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFAE80D</tstamp>
+    </comp>
+    <comp ref="K218">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFAE813</tstamp>
+    </comp>
+    <comp ref="K219">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFAE819</tstamp>
+    </comp>
+    <comp ref="K220">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFAE81F</tstamp>
+    </comp>
+    <comp ref="K221">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFAE825</tstamp>
+    </comp>
+    <comp ref="K222">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFAE82B</tstamp>
+    </comp>
+    <comp ref="K223">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFAE831</tstamp>
+    </comp>
+    <comp ref="K224">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFAE837</tstamp>
+    </comp>
+    <comp ref="K225">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFAE83D</tstamp>
+    </comp>
+    <comp ref="K226">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFAE843</tstamp>
+    </comp>
+    <comp ref="K227">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFCA701</tstamp>
+    </comp>
+    <comp ref="K228">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFCA707</tstamp>
+    </comp>
+    <comp ref="K229">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFCA70D</tstamp>
+    </comp>
+    <comp ref="K230">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFCA713</tstamp>
+    </comp>
+    <comp ref="K231">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFCA719</tstamp>
+    </comp>
+    <comp ref="K232">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFCA71F</tstamp>
+    </comp>
+    <comp ref="K233">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFCA725</tstamp>
+    </comp>
+    <comp ref="K234">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFCA72B</tstamp>
+    </comp>
+    <comp ref="K235">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFCA731</tstamp>
+    </comp>
+    <comp ref="K236">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFCA737</tstamp>
+    </comp>
+    <comp ref="K237">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFCA73D</tstamp>
+    </comp>
+    <comp ref="K238">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFCA743</tstamp>
+    </comp>
+    <comp ref="K239">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFCA749</tstamp>
+    </comp>
+    <comp ref="K240">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFCC08C</tstamp>
+    </comp>
+    <comp ref="K241">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFE24DC</tstamp>
+    </comp>
+    <comp ref="K242">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFE24E2</tstamp>
+    </comp>
+    <comp ref="K243">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFE24E8</tstamp>
+    </comp>
+    <comp ref="K244">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFE24EE</tstamp>
+    </comp>
+    <comp ref="K245">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFE24F4</tstamp>
+    </comp>
+    <comp ref="K246">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFE24FA</tstamp>
+    </comp>
+    <comp ref="K247">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFE2500</tstamp>
+    </comp>
+    <comp ref="K248">
+      <value>KEYSW</value>
+      <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
+      <libsource lib="keyboard_parts" part="KEYSW" description=""/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFE2506</tstamp>
+    </comp>
+    <comp ref="D201">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C8598</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFEC9B1</tstamp>
+    </comp>
+    <comp ref="D208">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C8598</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFF9D07</tstamp>
+    </comp>
+    <comp ref="D215">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C8598</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5DFFD10B</tstamp>
+    </comp>
+    <comp ref="D222">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C8598</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5E0018FF</tstamp>
+    </comp>
+    <comp ref="D223">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C8598</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5E002046</tstamp>
+    </comp>
+    <comp ref="D224">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C8598</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5E002801</tstamp>
+    </comp>
+    <comp ref="D225">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C8598</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5E002F4A</tstamp>
+    </comp>
+    <comp ref="D226">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C8598</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5E0037A7</tstamp>
+    </comp>
+    <comp ref="D227">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C8598</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5E003EF7</tstamp>
+    </comp>
+    <comp ref="D228">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C8598</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5E00461B</tstamp>
+    </comp>
+    <comp ref="D229">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C8598</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5E004D63</tstamp>
+    </comp>
+    <comp ref="D230">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB">C8598</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5E0054FC</tstamp>
+    </comp>
+    <comp ref="DD202">
+      <value>BAV70</value>
+      <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5F3D370A</tstamp>
+    </comp>
+    <comp ref="DD209">
+      <value>BAV70</value>
+      <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5F5F922C</tstamp>
+    </comp>
+    <comp ref="DD210">
+      <value>BAV70</value>
+      <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5F5F9CA8</tstamp>
+    </comp>
+    <comp ref="DD211">
+      <value>BAV70</value>
+      <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5F5FA342</tstamp>
+    </comp>
+    <comp ref="DD216">
+      <value>BAV70</value>
+      <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5F38477C</tstamp>
+    </comp>
+    <comp ref="DD218">
+      <value>BAV70</value>
+      <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5F386051</tstamp>
+    </comp>
+    <comp ref="DD219">
+      <value>BAV70</value>
+      <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5F3ECFC9</tstamp>
+    </comp>
+    <comp ref="DD220">
+      <value>BAV70</value>
+      <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5F3FC7F3</tstamp>
+    </comp>
+    <comp ref="DD221">
+      <value>BAV70</value>
+      <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5F3FD3A8</tstamp>
+    </comp>
+    <comp ref="DD217">
+      <value>BAV70</value>
+      <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5F3856DE</tstamp>
+    </comp>
+    <comp ref="DD212">
+      <value>BAV70</value>
+      <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5F5FFA12</tstamp>
+    </comp>
+    <comp ref="DD213">
+      <value>BAV70</value>
+      <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5F5FE434</tstamp>
+    </comp>
+    <comp ref="DD214">
+      <value>BAV70</value>
+      <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5F5FF196</tstamp>
+    </comp>
+    <comp ref="DD207">
+      <value>BAV70</value>
+      <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5F5507D7</tstamp>
+    </comp>
+    <comp ref="DD206">
+      <value>BAV70</value>
+      <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5F51E280</tstamp>
+    </comp>
+    <comp ref="DD205">
+      <value>BAV70</value>
+      <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5F4E804A</tstamp>
+    </comp>
+    <comp ref="DD204">
+      <value>BAV70</value>
+      <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5F4B2B3A</tstamp>
+    </comp>
+    <comp ref="DD203">
+      <value>BAV70</value>
+      <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C68978</field>
+      </fields>
+      <libsource lib="Diode" part="BAV70" description="Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5F480334</tstamp>
+    </comp>
+    <comp ref="Stab_1">
+      <value>Stabilizer</value>
+      <footprint>Keebio-Parts:2U-StabFlip</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5FE52384</tstamp>
+    </comp>
+    <comp ref="Stab_2">
+      <value>Stabilizer</value>
+      <footprint>Keebio-Parts:2U-StabFlip</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
+      <tstamp>5FE52C98</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x01_Female">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAV70">
+      <description>Dual 100V 215mA high-speed switching diodes, common cathode, SOT-23</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAV70</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="SD05_SOD323">
+      <aliases>
+        <alias>SD12_SOD323</alias>
+        <alias>SD15_SOD323</alias>
+        <alias>SD24_SOD323</alias>
+        <alias>SD36_SOD323</alias>
+      </aliases>
+      <description>5V, 450W Discrete Bidirectional TVS Diode, SOD-323</description>
+      <docs>https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf</docs>
+      <footprints>
+        <fp>D?SOD?323*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SD05_SOD323</field>
+        <field name="Footprint">Diode_SMD:D_SOD-323</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_ST_STM32F0" part="STM32F072C8Ux">
+      <aliases>
+        <alias>STM32F072CBUx</alias>
+      </aliases>
+      <description>ARM Cortex-M0 MCU, 64KB flash, 16KB RAM, 48MHz, 2-3.6V, 37 GPIO, UFQFPN-48</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf</docs>
+      <footprints>
+        <fp>QFN*1EP*7x7mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F072C8Ux</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13" type="BiDi"/>
+        <pin num="3" name="PC14" type="BiDi"/>
+        <pin num="4" name="PC15" type="BiDi"/>
+        <pin num="5" name="PF0" type="input"/>
+        <pin num="6" name="PF1" type="input"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="VSSA" type="power_in"/>
+        <pin num="9" name="VDDA" type="power_in"/>
+        <pin num="10" name="PA0" type="BiDi"/>
+        <pin num="11" name="PA1" type="BiDi"/>
+        <pin num="12" name="PA2" type="BiDi"/>
+        <pin num="13" name="PA3" type="BiDi"/>
+        <pin num="14" name="PA4" type="BiDi"/>
+        <pin num="15" name="PA5" type="BiDi"/>
+        <pin num="16" name="PA6" type="BiDi"/>
+        <pin num="17" name="PA7" type="BiDi"/>
+        <pin num="18" name="PB0" type="BiDi"/>
+        <pin num="19" name="PB1" type="BiDi"/>
+        <pin num="20" name="PB2" type="BiDi"/>
+        <pin num="21" name="PB10" type="BiDi"/>
+        <pin num="22" name="PB11" type="BiDi"/>
+        <pin num="23" name="VSS" type="power_in"/>
+        <pin num="24" name="VDD" type="power_in"/>
+        <pin num="25" name="PB12" type="BiDi"/>
+        <pin num="26" name="PB13" type="BiDi"/>
+        <pin num="27" name="PB14" type="BiDi"/>
+        <pin num="28" name="PB15" type="BiDi"/>
+        <pin num="29" name="PA8" type="BiDi"/>
+        <pin num="30" name="PA9" type="BiDi"/>
+        <pin num="31" name="PA10" type="BiDi"/>
+        <pin num="32" name="PA11" type="BiDi"/>
+        <pin num="33" name="PA12" type="BiDi"/>
+        <pin num="34" name="PA13" type="BiDi"/>
+        <pin num="35" name="VSS" type="power_in"/>
+        <pin num="36" name="VDDIO2" type="power_in"/>
+        <pin num="37" name="PA14" type="BiDi"/>
+        <pin num="38" name="PA15" type="BiDi"/>
+        <pin num="39" name="PB3" type="BiDi"/>
+        <pin num="40" name="PB4" type="BiDi"/>
+        <pin num="41" name="PB5" type="BiDi"/>
+        <pin num="42" name="PB6" type="BiDi"/>
+        <pin num="43" name="PB7" type="BiDi"/>
+        <pin num="44" name="BOOT0" type="input"/>
+        <pin num="45" name="PB8" type="BiDi"/>
+        <pin num="46" name="PB9" type="BiDi"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDD" type="power_in"/>
+        <pin num="49" name="VSS" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Power_Protection" part="SRV05-4">
+      <description>ESD Protection Diodes with Low Clamping Voltage, SOT-23-6</description>
+      <docs>http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SRV05-4</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IO1" type="passive"/>
+        <pin num="2" name="VN" type="passive"/>
+        <pin num="3" name="IO2" type="passive"/>
+        <pin num="4" name="IO3" type="passive"/>
+        <pin num="5" name="VP" type="passive"/>
+        <pin num="6" name="IO4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="APE8865N-12-HF-3">
+      <aliases>
+        <alias>APE8865N-15-HF-3</alias>
+        <alias>APE8865N-16-HF-3</alias>
+        <alias>APE8865N-17-HF-3</alias>
+        <alias>APE8865N-18-HF-3</alias>
+        <alias>APE8865N-19-HF-3</alias>
+        <alias>APE8865N-20-HF-3</alias>
+        <alias>APE8865N-21-HF-3</alias>
+        <alias>APE8865N-22-HF-3</alias>
+        <alias>APE8865N-23-HF-3</alias>
+        <alias>APE8865N-24-HF-3</alias>
+        <alias>APE8865N-25-HF-3</alias>
+        <alias>APE8865N-26-HF-3</alias>
+        <alias>APE8865N-27-HF-3</alias>
+        <alias>APE8865N-28-HF-3</alias>
+        <alias>APE8865N-29-HF-3</alias>
+        <alias>APE8865N-30-HF-3</alias>
+        <alias>APE8865N-31-HF-3</alias>
+        <alias>APE8865N-32-HF-3</alias>
+        <alias>APE8865N-33-HF-3</alias>
+        <alias>AP2127N-1.0</alias>
+        <alias>AP2127N-1.2</alias>
+        <alias>AP2127N-1.5</alias>
+        <alias>AP2127N-1.8</alias>
+        <alias>AP2127N-2.5</alias>
+        <alias>AP2127N-2.8</alias>
+        <alias>AP2127N-3.0</alias>
+        <alias>AP2127N-3.3</alias>
+        <alias>XC6206PxxxMR</alias>
+      </aliases>
+      <description>300mA Low Dropout Voltage Regulator, Fixed Output 1.2V, SOT-23</description>
+      <docs>http://www.tme.eu/fr/Document/ced3461ed31ea70a3c416fb648e0cde7/APE8865-3.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">APE8865N-12-HF-3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shoto-rescue" part="USB_C_Receptacle_USB2.0-Connector">
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0-Connector</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="power_in"/>
+        <pin num="A4" name="VBUS" type="power_in"/>
+        <pin num="A5" name="CC1" type="BiDi"/>
+        <pin num="A6" name="D+" type="BiDi"/>
+        <pin num="A7" name="D-" type="BiDi"/>
+        <pin num="A8" name="SBU1" type="BiDi"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="BiDi"/>
+        <pin num="B6" name="D+" type="BiDi"/>
+        <pin num="B7" name="D-" type="BiDi"/>
+        <pin num="B8" name="SBU2" type="BiDi"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <aliases>
+        <alias>2N7002</alias>
+        <alias>2N7002E</alias>
+        <alias>2N7002H</alias>
+        <alias>2N7002K</alias>
+        <alias>BS170F</alias>
+        <alias>BS870</alias>
+        <alias>BSN20</alias>
+        <alias>BSS123</alias>
+        <alias>BSS127S</alias>
+        <alias>DMG2302U</alias>
+        <alias>DMG3402L</alias>
+        <alias>DMG3404L</alias>
+        <alias>DMG3406L</alias>
+        <alias>DMG3414U</alias>
+        <alias>DMG3418L</alias>
+        <alias>DMN10H220L</alias>
+        <alias>DMN10H700S</alias>
+        <alias>DMN13H750S</alias>
+        <alias>DMN2041L</alias>
+        <alias>DMN2050L</alias>
+        <alias>DMN2056U</alias>
+        <alias>DMN2058U</alias>
+        <alias>DMN2075U</alias>
+        <alias>DMN2230U</alias>
+        <alias>DMN24H11DS</alias>
+        <alias>DMN24H3D5L</alias>
+        <alias>DMN3042L</alias>
+        <alias>DMN3051L</alias>
+        <alias>DMN30H4D0L</alias>
+        <alias>DMN3110S</alias>
+        <alias>DMN3150L</alias>
+        <alias>DMN3300U</alias>
+        <alias>DMN3404L</alias>
+        <alias>DMN6075S</alias>
+        <alias>DMN6140L</alias>
+        <alias>DMN67D7L</alias>
+        <alias>DMN67D8L</alias>
+        <alias>MMBF170</alias>
+        <alias>VN10LF</alias>
+        <alias>ZVN3306F</alias>
+        <alias>ZVN3310F</alias>
+        <alias>ZVN3320F</alias>
+        <alias>ZVN4106F</alias>
+        <alias>ZXM61N02F</alias>
+        <alias>ZXM61N03F</alias>
+        <alias>ZXMN10A07F</alias>
+        <alias>ZXMN2A01F</alias>
+        <alias>ZXMN2A14F</alias>
+        <alias>ZXMN2B01F</alias>
+        <alias>ZXMN2B14FH</alias>
+        <alias>ZXMN2F30FH</alias>
+        <alias>ZXMN2F34FH</alias>
+        <alias>ZXMN3A01F</alias>
+        <alias>ZXMN3A14F</alias>
+        <alias>ZXMN3B01F</alias>
+        <alias>ZXMN3B14F</alias>
+        <alias>ZXMN3F30FH</alias>
+        <alias>ZXMN6A07F</alias>
+        <alias>IRLML0030</alias>
+        <alias>IRLML2060</alias>
+        <alias>TSM2302CX</alias>
+        <alias>AO3400A</alias>
+      </aliases>
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="keyboard_parts" part="KEYSW">
+      <fields>
+        <field name="Reference">K?</field>
+        <field name="Value">KEYSW</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/library/Diode.lib</uri>
+    </library>
+    <library logical="MCU_ST_STM32F0">
+      <uri>/usr/share/kicad/library/MCU_ST_STM32F0.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>/usr/share/kicad/library/Power_Protection.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Shoto-rescue">
+      <uri>/home/fabian/Projekte/PCB/Shoto/Shoto-rescue.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/library/Transistor_FET.lib</uri>
+    </library>
+    <library logical="keyboard_parts">
+      <uri>/home/fabian/Projekte/PCB/Shoto/libs/kicad_lib_tmk/keyboard_parts.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U101-Pad34)">
+      <node ref="U101" pin="34"/>
+    </net>
+    <net code="2" name="Row_1">
+      <node ref="DD205" pin="3"/>
+      <node ref="DD206" pin="3"/>
+      <node ref="DD207" pin="3"/>
+      <node ref="U101" pin="39"/>
+      <node ref="D201" pin="1"/>
+      <node ref="DD203" pin="3"/>
+      <node ref="DD204" pin="3"/>
+      <node ref="DD202" pin="3"/>
+    </net>
+    <net code="3" name="Row_2">
+      <node ref="DD210" pin="3"/>
+      <node ref="U101" pin="40"/>
+      <node ref="D208" pin="1"/>
+      <node ref="DD209" pin="3"/>
+      <node ref="DD211" pin="3"/>
+      <node ref="DD214" pin="3"/>
+      <node ref="DD213" pin="3"/>
+      <node ref="DD212" pin="3"/>
+    </net>
+    <net code="4" name="Row_3">
+      <node ref="U101" pin="41"/>
+      <node ref="DD217" pin="3"/>
+      <node ref="DD219" pin="3"/>
+      <node ref="DD220" pin="3"/>
+      <node ref="DD221" pin="3"/>
+      <node ref="DD216" pin="3"/>
+      <node ref="DD218" pin="3"/>
+      <node ref="D215" pin="1"/>
+    </net>
+    <net code="5" name="Row_4">
+      <node ref="D222" pin="1"/>
+      <node ref="D224" pin="1"/>
+      <node ref="D225" pin="1"/>
+      <node ref="D226" pin="1"/>
+      <node ref="D227" pin="1"/>
+      <node ref="D228" pin="1"/>
+      <node ref="D229" pin="1"/>
+      <node ref="D230" pin="1"/>
+      <node ref="D223" pin="1"/>
+      <node ref="U101" pin="42"/>
+    </net>
+    <net code="6" name="Net-(U101-Pad26)">
+      <node ref="U101" pin="26"/>
+    </net>
+    <net code="7" name="Net-(U101-Pad37)">
+      <node ref="U101" pin="37"/>
+    </net>
+    <net code="8" name="Col_13">
+      <node ref="K226" pin="1"/>
+      <node ref="U101" pin="5"/>
+      <node ref="K239" pin="1"/>
+      <node ref="K213" pin="1"/>
+    </net>
+    <net code="9" name="Col_12">
+      <node ref="K248" pin="1"/>
+      <node ref="U101" pin="4"/>
+      <node ref="K212" pin="1"/>
+      <node ref="K225" pin="1"/>
+      <node ref="K238" pin="1"/>
+    </net>
+    <net code="10" name="Col_11">
+      <node ref="U101" pin="3"/>
+      <node ref="K237" pin="1"/>
+      <node ref="K247" pin="1"/>
+      <node ref="K211" pin="1"/>
+      <node ref="K224" pin="1"/>
+    </net>
+    <net code="11" name="Col_10">
+      <node ref="K236" pin="1"/>
+      <node ref="K223" pin="1"/>
+      <node ref="K210" pin="1"/>
+      <node ref="U101" pin="2"/>
+      <node ref="K246" pin="1"/>
+    </net>
+    <net code="12" name="Col_9">
+      <node ref="U101" pin="46"/>
+      <node ref="K235" pin="1"/>
+      <node ref="K222" pin="1"/>
+      <node ref="K209" pin="1"/>
+    </net>
+    <net code="13" name="Col_8">
+      <node ref="U101" pin="45"/>
+      <node ref="K221" pin="1"/>
+      <node ref="K208" pin="1"/>
+      <node ref="K234" pin="1"/>
+      <node ref="K245" pin="1"/>
+    </net>
+    <net code="14" name="Col_7">
+      <node ref="U101" pin="38"/>
+      <node ref="K240" pin="1"/>
+      <node ref="K233" pin="1"/>
+      <node ref="K207" pin="1"/>
+      <node ref="K220" pin="1"/>
+    </net>
+    <net code="15" name="GND">
+      <node ref="U102" pin="1"/>
+      <node ref="C107" pin="2"/>
+      <node ref="U101" pin="8"/>
+      <node ref="R101" pin="1"/>
+      <node ref="R102" pin="1"/>
+      <node ref="C104" pin="2"/>
+      <node ref="C101" pin="2"/>
+      <node ref="C102" pin="2"/>
+      <node ref="C103" pin="2"/>
+      <node ref="C106" pin="2"/>
+      <node ref="C108" pin="2"/>
+      <node ref="Q101" pin="2"/>
+      <node ref="C105" pin="2"/>
+      <node ref="R103" pin="1"/>
+      <node ref="D101" pin="2"/>
+      <node ref="C109" pin="1"/>
+      <node ref="J101" pin="A12"/>
+      <node ref="J101" pin="B12"/>
+      <node ref="J101" pin="B1"/>
+      <node ref="U103" pin="2"/>
+      <node ref="U101" pin="49"/>
+      <node ref="U101" pin="47"/>
+      <node ref="C110" pin="2"/>
+      <node ref="C111" pin="2"/>
+      <node ref="U101" pin="35"/>
+      <node ref="U101" pin="23"/>
+      <node ref="J101" pin="A1"/>
+      <node ref="R106" pin="1"/>
+      <node ref="R105" pin="1"/>
+      <node ref="C113" pin="2"/>
+    </net>
+    <net code="16" name="Col_6">
+      <node ref="K219" pin="1"/>
+      <node ref="U101" pin="25"/>
+      <node ref="K206" pin="1"/>
+      <node ref="K244" pin="1"/>
+      <node ref="K232" pin="1"/>
+    </net>
+    <net code="17" name="BOOT">
+      <node ref="R105" pin="2"/>
+      <node ref="SW101" pin="2"/>
+      <node ref="U101" pin="44"/>
+      <node ref="C112" pin="2"/>
+    </net>
+    <net code="18" name="Col_5">
+      <node ref="K231" pin="1"/>
+      <node ref="K205" pin="1"/>
+      <node ref="U101" pin="27"/>
+      <node ref="K218" pin="1"/>
+    </net>
+    <net code="19" name="D-">
+      <node ref="U101" pin="32"/>
+      <node ref="J101" pin="A7"/>
+      <node ref="U103" pin="1"/>
+      <node ref="J101" pin="B7"/>
+    </net>
+    <net code="20" name="Col_4">
+      <node ref="K217" pin="1"/>
+      <node ref="K204" pin="1"/>
+      <node ref="K230" pin="1"/>
+      <node ref="K243" pin="1"/>
+      <node ref="U101" pin="28"/>
+    </net>
+    <net code="21" name="Col_3">
+      <node ref="K242" pin="1"/>
+      <node ref="U101" pin="29"/>
+      <node ref="K203" pin="1"/>
+      <node ref="K229" pin="1"/>
+      <node ref="K216" pin="1"/>
+    </net>
+    <net code="22" name="Col_2">
+      <node ref="K228" pin="1"/>
+      <node ref="U101" pin="30"/>
+      <node ref="K215" pin="1"/>
+      <node ref="K202" pin="1"/>
+      <node ref="K241" pin="1"/>
+    </net>
+    <net code="23" name="Col_1">
+      <node ref="U101" pin="31"/>
+      <node ref="K214" pin="1"/>
+      <node ref="K201" pin="1"/>
+      <node ref="K227" pin="1"/>
+    </net>
+    <net code="24" name="+3V3">
+      <node ref="C108" pin="1"/>
+      <node ref="U102" pin="2"/>
+      <node ref="C111" pin="1"/>
+      <node ref="D102" pin="2"/>
+      <node ref="U101" pin="9"/>
+      <node ref="C105" pin="1"/>
+      <node ref="C107" pin="1"/>
+      <node ref="SW101" pin="1"/>
+      <node ref="C103" pin="1"/>
+      <node ref="C102" pin="1"/>
+      <node ref="C101" pin="1"/>
+      <node ref="C104" pin="1"/>
+      <node ref="U101" pin="36"/>
+      <node ref="U101" pin="48"/>
+      <node ref="U101" pin="1"/>
+      <node ref="U101" pin="24"/>
+      <node ref="R104" pin="1"/>
+      <node ref="C106" pin="1"/>
+    </net>
+    <net code="25" name="NRST">
+      <node ref="U101" pin="7"/>
+      <node ref="C113" pin="1"/>
+      <node ref="R104" pin="2"/>
+      <node ref="Q101" pin="3"/>
+    </net>
+    <net code="26" name="Net-(C112-Pad1)">
+      <node ref="Q101" pin="1"/>
+      <node ref="C112" pin="1"/>
+      <node ref="R106" pin="2"/>
+    </net>
+    <net code="27" name="VBUS">
+      <node ref="J101" pin="A9"/>
+      <node ref="J101" pin="B4"/>
+      <node ref="J101" pin="A4"/>
+      <node ref="F101" pin="2"/>
+      <node ref="J101" pin="B9"/>
+    </net>
+    <net code="28" name="D+">
+      <node ref="U101" pin="33"/>
+      <node ref="J101" pin="B6"/>
+      <node ref="J101" pin="A6"/>
+      <node ref="U103" pin="4"/>
+    </net>
+    <net code="29" name="+5V">
+      <node ref="U102" pin="3"/>
+      <node ref="C110" pin="1"/>
+      <node ref="D102" pin="1"/>
+      <node ref="U103" pin="5"/>
+      <node ref="F101" pin="1"/>
+      <node ref="D101" pin="1"/>
+    </net>
+    <net code="30" name="Net-(U103-Pad6)">
+      <node ref="U103" pin="6"/>
+    </net>
+    <net code="31" name="Net-(U103-Pad3)">
+      <node ref="U103" pin="3"/>
+    </net>
+    <net code="32" name="Net-(C109-Pad2)">
+      <node ref="J102" pin="1"/>
+      <node ref="R103" pin="2"/>
+      <node ref="C109" pin="2"/>
+      <node ref="J101" pin="S1"/>
+    </net>
+    <net code="33" name="Net-(U101-Pad19)">
+      <node ref="U101" pin="19"/>
+    </net>
+    <net code="34" name="Net-(U101-Pad22)">
+      <node ref="U101" pin="22"/>
+    </net>
+    <net code="35" name="Net-(U101-Pad21)">
+      <node ref="U101" pin="21"/>
+    </net>
+    <net code="36" name="Net-(U101-Pad20)">
+      <node ref="U101" pin="20"/>
+    </net>
+    <net code="37" name="Net-(U101-Pad18)">
+      <node ref="U101" pin="18"/>
+    </net>
+    <net code="38" name="Net-(U101-Pad17)">
+      <node ref="U101" pin="17"/>
+    </net>
+    <net code="39" name="Net-(U101-Pad16)">
+      <node ref="U101" pin="16"/>
+    </net>
+    <net code="40" name="Net-(U101-Pad15)">
+      <node ref="U101" pin="15"/>
+    </net>
+    <net code="41" name="Net-(U101-Pad14)">
+      <node ref="U101" pin="14"/>
+    </net>
+    <net code="42" name="Net-(U101-Pad13)">
+      <node ref="U101" pin="13"/>
+    </net>
+    <net code="43" name="Net-(U101-Pad12)">
+      <node ref="U101" pin="12"/>
+    </net>
+    <net code="44" name="Net-(U101-Pad11)">
+      <node ref="U101" pin="11"/>
+    </net>
+    <net code="45" name="Net-(U101-Pad10)">
+      <node ref="U101" pin="10"/>
+    </net>
+    <net code="46" name="Net-(U101-Pad6)">
+      <node ref="U101" pin="6"/>
+    </net>
+    <net code="47" name="Net-(U101-Pad43)">
+      <node ref="U101" pin="43"/>
+    </net>
+    <net code="48" name="Net-(J101-PadB8)">
+      <node ref="J101" pin="B8"/>
+    </net>
+    <net code="49" name="Net-(J101-PadA8)">
+      <node ref="J101" pin="A8"/>
+    </net>
+    <net code="50" name="Net-(J101-PadA5)">
+      <node ref="R101" pin="2"/>
+      <node ref="J101" pin="A5"/>
+    </net>
+    <net code="51" name="Net-(J101-PadB5)">
+      <node ref="R102" pin="2"/>
+      <node ref="J101" pin="B5"/>
+    </net>
+    <net code="52" name="Net-(DD212-Pad2)">
+      <node ref="K222" pin="2"/>
+      <node ref="DD212" pin="2"/>
+    </net>
+    <net code="53" name="Net-(DD212-Pad1)">
+      <node ref="DD212" pin="1"/>
+      <node ref="K221" pin="2"/>
+    </net>
+    <net code="54" name="Net-(DD211-Pad2)">
+      <node ref="DD211" pin="2"/>
+      <node ref="K219" pin="2"/>
+    </net>
+    <net code="55" name="Net-(DD211-Pad1)">
+      <node ref="DD211" pin="1"/>
+      <node ref="K218" pin="2"/>
+    </net>
+    <net code="56" name="Net-(DD210-Pad2)">
+      <node ref="DD210" pin="2"/>
+      <node ref="K217" pin="2"/>
+    </net>
+    <net code="57" name="Net-(DD213-Pad1)">
+      <node ref="DD213" pin="1"/>
+      <node ref="K223" pin="2"/>
+    </net>
+    <net code="58" name="Net-(DD213-Pad2)">
+      <node ref="K224" pin="2"/>
+      <node ref="DD213" pin="2"/>
+    </net>
+    <net code="59" name="Net-(DD214-Pad1)">
+      <node ref="DD214" pin="1"/>
+      <node ref="K225" pin="2"/>
+    </net>
+    <net code="60" name="Net-(DD214-Pad2)">
+      <node ref="DD214" pin="2"/>
+      <node ref="K226" pin="2"/>
+    </net>
+    <net code="61" name="Net-(D201-Pad2)">
+      <node ref="K207" pin="2"/>
+      <node ref="D201" pin="2"/>
+    </net>
+    <net code="62" name="Net-(DD206-Pad1)">
+      <node ref="DD206" pin="1"/>
+      <node ref="K210" pin="2"/>
+    </net>
+    <net code="63" name="Net-(DD206-Pad2)">
+      <node ref="DD206" pin="2"/>
+      <node ref="K211" pin="2"/>
+    </net>
+    <net code="64" name="Net-(DD205-Pad2)">
+      <node ref="K209" pin="2"/>
+      <node ref="DD205" pin="2"/>
+    </net>
+    <net code="65" name="Net-(DD205-Pad1)">
+      <node ref="DD205" pin="1"/>
+      <node ref="K208" pin="2"/>
+    </net>
+    <net code="66" name="Net-(DD209-Pad1)">
+      <node ref="DD209" pin="1"/>
+      <node ref="K214" pin="2"/>
+    </net>
+    <net code="67" name="Net-(DD209-Pad2)">
+      <node ref="DD209" pin="2"/>
+      <node ref="K215" pin="2"/>
+    </net>
+    <net code="68" name="Net-(DD210-Pad1)">
+      <node ref="K216" pin="2"/>
+      <node ref="DD210" pin="1"/>
+    </net>
+    <net code="69" name="Net-(DD203-Pad2)">
+      <node ref="DD203" pin="2"/>
+      <node ref="K204" pin="2"/>
+    </net>
+    <net code="70" name="Net-(DD204-Pad2)">
+      <node ref="K206" pin="2"/>
+      <node ref="DD204" pin="2"/>
+    </net>
+    <net code="71" name="Net-(DD204-Pad1)">
+      <node ref="DD204" pin="1"/>
+      <node ref="K205" pin="2"/>
+    </net>
+    <net code="72" name="Net-(DD203-Pad1)">
+      <node ref="K203" pin="2"/>
+      <node ref="DD203" pin="1"/>
+    </net>
+    <net code="73" name="Net-(DD217-Pad2)">
+      <node ref="DD217" pin="2"/>
+      <node ref="K229" pin="2"/>
+    </net>
+    <net code="74" name="Net-(DD217-Pad1)">
+      <node ref="K230" pin="2"/>
+      <node ref="DD217" pin="1"/>
+    </net>
+    <net code="75" name="Net-(DD216-Pad1)">
+      <node ref="K228" pin="2"/>
+      <node ref="DD216" pin="1"/>
+    </net>
+    <net code="76" name="Net-(DD207-Pad2)">
+      <node ref="DD207" pin="2"/>
+      <node ref="K213" pin="2"/>
+    </net>
+    <net code="77" name="Net-(DD207-Pad1)">
+      <node ref="K212" pin="2"/>
+      <node ref="DD207" pin="1"/>
+    </net>
+    <net code="78" name="Net-(DD216-Pad2)">
+      <node ref="K227" pin="2"/>
+      <node ref="DD216" pin="2"/>
+    </net>
+    <net code="79" name="Net-(DD218-Pad1)">
+      <node ref="K232" pin="2"/>
+      <node ref="DD218" pin="1"/>
+    </net>
+    <net code="80" name="Net-(DD218-Pad2)">
+      <node ref="DD218" pin="2"/>
+      <node ref="K231" pin="2"/>
+    </net>
+    <net code="81" name="Net-(DD221-Pad2)">
+      <node ref="DD221" pin="2"/>
+      <node ref="K238" pin="2"/>
+    </net>
+    <net code="82" name="Net-(DD219-Pad2)">
+      <node ref="K234" pin="2"/>
+      <node ref="DD219" pin="2"/>
+    </net>
+    <net code="83" name="Net-(DD219-Pad1)">
+      <node ref="K235" pin="2"/>
+      <node ref="DD219" pin="1"/>
+    </net>
+    <net code="84" name="Net-(DD220-Pad2)">
+      <node ref="DD220" pin="2"/>
+      <node ref="K236" pin="2"/>
+    </net>
+    <net code="85" name="Net-(DD220-Pad1)">
+      <node ref="K237" pin="2"/>
+      <node ref="DD220" pin="1"/>
+    </net>
+    <net code="86" name="Net-(DD221-Pad1)">
+      <node ref="DD221" pin="1"/>
+      <node ref="K239" pin="2"/>
+    </net>
+    <net code="87" name="Net-(D223-Pad2)">
+      <node ref="K241" pin="2"/>
+      <node ref="D223" pin="2"/>
+    </net>
+    <net code="88" name="Net-(D229-Pad2)">
+      <node ref="D229" pin="2"/>
+      <node ref="K247" pin="2"/>
+    </net>
+    <net code="89" name="Net-(D228-Pad2)">
+      <node ref="D228" pin="2"/>
+      <node ref="K246" pin="2"/>
+    </net>
+    <net code="90" name="Net-(D227-Pad2)">
+      <node ref="D227" pin="2"/>
+      <node ref="K245" pin="2"/>
+    </net>
+    <net code="91" name="Net-(D226-Pad2)">
+      <node ref="K244" pin="2"/>
+      <node ref="D226" pin="2"/>
+    </net>
+    <net code="92" name="Net-(D225-Pad2)">
+      <node ref="D225" pin="2"/>
+      <node ref="K243" pin="2"/>
+    </net>
+    <net code="93" name="Net-(D224-Pad2)">
+      <node ref="K242" pin="2"/>
+      <node ref="D224" pin="2"/>
+    </net>
+    <net code="94" name="Net-(D222-Pad2)">
+      <node ref="D222" pin="2"/>
+      <node ref="K240" pin="2"/>
+    </net>
+    <net code="95" name="Net-(D215-Pad2)">
+      <node ref="D215" pin="2"/>
+      <node ref="K233" pin="2"/>
+    </net>
+    <net code="96" name="Net-(D208-Pad2)">
+      <node ref="K220" pin="2"/>
+      <node ref="D208" pin="2"/>
+    </net>
+    <net code="97" name="Net-(DD202-Pad2)">
+      <node ref="DD202" pin="2"/>
+      <node ref="K202" pin="2"/>
+    </net>
+    <net code="98" name="Net-(DD202-Pad1)">
+      <node ref="DD202" pin="1"/>
+      <node ref="K201" pin="2"/>
+    </net>
+    <net code="99" name="Net-(D230-Pad2)">
+      <node ref="K248" pin="2"/>
+      <node ref="D230" pin="2"/>
+    </net>
+  </nets>
+</export>

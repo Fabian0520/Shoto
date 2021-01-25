@@ -2,4 +2,5 @@
   (lib (name Keebio-Parts)(type KiCad)(uri ${KIPRJMOD}/libs/Keebio-Parts.pretty)(options "")(descr ""))
   (lib (name keyboard_parts)(type KiCad)(uri ${KIPRJMOD}/libs/keyboard_parts.pretty)(options "")(descr ""))
   (lib (name Buttons_Switches_Keyboard)(type KiCad)(uri ${KIPRJMOD}/libs/Buttons_Switches_Keyboard.pretty)(options "")(descr ""))
+  (lib (name Shoto)(type KiCad)(uri /home/fabian/Projekte/PCB/Shoto)(options "")(descr ""))
 )
