@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/fabian/Projekte/PCB/Shoto/Shoto.sch</source>
-    <date>Sun 24 Jan 2021 08:35:56 PM CET</date>
+    <date>Mon 25 Jan 2021 04:14:01 PM CET</date>
     <tool>Eeschema 5.1.9</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -32,7 +32,7 @@
     </sheet>
   </design>
   <components>
-    <comp ref="J101">
+    <comp ref="J1">
       <value>USB_C_Receptacle_USB2.0</value>
       <footprint>Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12</footprint>
       <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
@@ -40,7 +40,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EAC4492</tstamp>
     </comp>
-    <comp ref="C109">
+    <comp ref="C9">
       <value>4.7n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -51,7 +51,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EAC5108</tstamp>
     </comp>
-    <comp ref="R103">
+    <comp ref="R3">
       <value>1M</value>
       <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
@@ -62,7 +62,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EAC5747</tstamp>
     </comp>
-    <comp ref="R101">
+    <comp ref="R1">
       <value>5.1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -73,7 +73,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EAEF237</tstamp>
     </comp>
-    <comp ref="R102">
+    <comp ref="R2">
       <value>5.1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -84,18 +84,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EAEF719</tstamp>
     </comp>
-    <comp ref="U101">
-      <value>STM32F072C8Tx</value>
-      <footprint>Package_QFP:LQFP-48_7x7mm_P0.5mm</footprint>
-      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf</datasheet>
-      <fields>
-        <field name="JLCPCB"> C80488</field>
-      </fields>
-      <libsource lib="MCU_ST_STM32F0" part="STM32F072CBUx" description="ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 2-3.6V, 37 GPIO, UFQFPN-48"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F16DA33</tstamp>
-    </comp>
-    <comp ref="C101">
+    <comp ref="C1">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -106,7 +95,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F16ECA8</tstamp>
     </comp>
-    <comp ref="C102">
+    <comp ref="C2">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -117,7 +106,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F16F0EF</tstamp>
     </comp>
-    <comp ref="C103">
+    <comp ref="C3">
       <value>100n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -128,7 +117,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F16F494</tstamp>
     </comp>
-    <comp ref="C107">
+    <comp ref="C7">
       <value>1u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -139,7 +128,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F16F78B</tstamp>
     </comp>
-    <comp ref="C106">
+    <comp ref="C6">
       <value>4.7u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -150,7 +139,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F16FD23</tstamp>
     </comp>
-    <comp ref="C108">
+    <comp ref="C8">
       <value>4.7u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -161,7 +150,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F172CCE</tstamp>
     </comp>
-    <comp ref="C104">
+    <comp ref="C4">
       <value>10n</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -172,7 +161,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F18624C</tstamp>
     </comp>
-    <comp ref="U102">
+    <comp ref="U2">
       <value>XC6206PxxxMR</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.torexsemi.com/file/xc6206/XC6206.pdf</datasheet>
@@ -183,7 +172,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F18D4C9</tstamp>
     </comp>
-    <comp ref="C111">
+    <comp ref="C11">
       <value>1u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -194,7 +183,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F18DCB6</tstamp>
     </comp>
-    <comp ref="C110">
+    <comp ref="C10">
       <value>1u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -205,7 +194,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F18E1FB</tstamp>
     </comp>
-    <comp ref="SW101">
+    <comp ref="SW1">
       <value>TS-1187A-B-A-B</value>
       <footprint>Keebio-Parts:SW_SPST_TL3342</footprint>
       <datasheet>~</datasheet>
@@ -216,7 +205,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F1F9C25</tstamp>
     </comp>
-    <comp ref="C105">
+    <comp ref="C5">
       <value>4.7u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -227,7 +216,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F3BCDC5</tstamp>
     </comp>
-    <comp ref="U103">
+    <comp ref="U3">
       <value>SRV05-4</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
       <datasheet>http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF</datasheet>
@@ -238,7 +227,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F500814</tstamp>
     </comp>
-    <comp ref="F101">
+    <comp ref="F1">
       <value>ASMD1206-150</value>
       <footprint>Fuse:Fuse_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
@@ -249,7 +238,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F55AEDA</tstamp>
     </comp>
-    <comp ref="D101">
+    <comp ref="D1">
       <value>SMF9.0CA</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sd_c_datasheet.pdf.pdf</datasheet>
@@ -260,7 +249,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F4FEFFD</tstamp>
     </comp>
-    <comp ref="D102">
+    <comp ref="D2">
       <value>D_Schottky</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
@@ -271,7 +260,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F516A84</tstamp>
     </comp>
-    <comp ref="H105">
+    <comp ref="H5">
       <value>MountingHole</value>
       <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
       <datasheet>~</datasheet>
@@ -279,7 +268,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F524565</tstamp>
     </comp>
-    <comp ref="H104">
+    <comp ref="H4">
       <value>MountingHole</value>
       <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
       <datasheet>~</datasheet>
@@ -287,7 +276,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F52498A</tstamp>
     </comp>
-    <comp ref="H103">
+    <comp ref="H3">
       <value>MountingHole</value>
       <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
       <datasheet>~</datasheet>
@@ -295,7 +284,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F524F60</tstamp>
     </comp>
-    <comp ref="H102">
+    <comp ref="H2">
       <value>MountingHole</value>
       <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
       <datasheet>~</datasheet>
@@ -303,7 +292,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F52546C</tstamp>
     </comp>
-    <comp ref="H101">
+    <comp ref="H1">
       <value>MountingHole</value>
       <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
       <datasheet>~</datasheet>
@@ -311,7 +300,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F525959</tstamp>
     </comp>
-    <comp ref="H106">
+    <comp ref="H6">
       <value>MountingHole</value>
       <footprint>MountingHole:MountingHole_2.2mm_M2</footprint>
       <datasheet>~</datasheet>
@@ -319,7 +308,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F525E8D</tstamp>
     </comp>
-    <comp ref="J102">
+    <comp ref="J2">
       <value>Case</value>
       <footprint>MountingHole:MountingHole_2.2mm_M2_Pad</footprint>
       <datasheet>~</datasheet>
@@ -327,7 +316,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F293682</tstamp>
     </comp>
-    <comp ref="R106">
+    <comp ref="R6">
       <value>100k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -338,7 +327,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA7AB74</tstamp>
     </comp>
-    <comp ref="C113">
+    <comp ref="C13">
       <value>1u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -349,7 +338,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA7B343</tstamp>
     </comp>
-    <comp ref="R105">
+    <comp ref="R5">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -360,7 +349,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA7C442</tstamp>
     </comp>
-    <comp ref="C112">
+    <comp ref="C12">
       <value>10u</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -371,7 +360,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FA7DA7B</tstamp>
     </comp>
-    <comp ref="R104">
+    <comp ref="R4">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
@@ -382,7 +371,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FACC661</tstamp>
     </comp>
-    <comp ref="Q101">
+    <comp ref="Q1">
       <value>2N7002</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF</datasheet>
@@ -393,343 +382,354 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FACD68D</tstamp>
     </comp>
-    <comp ref="K201">
+    <comp ref="U1">
+      <value>STM32F072C8Tx</value>
+      <footprint>Package_QFP:LQFP-48_7x7mm_P0.5mm</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB">C80488</field>
+      </fields>
+      <libsource lib="MCU_ST_STM32F0" part="STM32F072C8Tx" description="ARM Cortex-M0 MCU, 64KB flash, 16KB RAM, 48MHz, 2-3.6V, 37 GPIO, LQFP-48"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6011CFB1</tstamp>
+    </comp>
+    <comp ref="K1">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFA2047</tstamp>
     </comp>
-    <comp ref="K202">
+    <comp ref="K2">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFA2509</tstamp>
     </comp>
-    <comp ref="K203">
+    <comp ref="K3">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFA41A9</tstamp>
     </comp>
-    <comp ref="K204">
+    <comp ref="K4">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFA4661</tstamp>
     </comp>
-    <comp ref="K205">
+    <comp ref="K5">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFA4AE8</tstamp>
     </comp>
-    <comp ref="K206">
+    <comp ref="K6">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFA4E3F</tstamp>
     </comp>
-    <comp ref="K207">
+    <comp ref="K7">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFA527D</tstamp>
     </comp>
-    <comp ref="K208">
+    <comp ref="K8">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFA55B3</tstamp>
     </comp>
-    <comp ref="K209">
+    <comp ref="K9">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFA5827</tstamp>
     </comp>
-    <comp ref="K210">
+    <comp ref="K10">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFA5A33</tstamp>
     </comp>
-    <comp ref="K211">
+    <comp ref="K11">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFA6424</tstamp>
     </comp>
-    <comp ref="K212">
+    <comp ref="K12">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFA67E5</tstamp>
     </comp>
-    <comp ref="K213">
+    <comp ref="K13">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFA6C6A</tstamp>
     </comp>
-    <comp ref="K214">
+    <comp ref="K14">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFAE7FB</tstamp>
     </comp>
-    <comp ref="K215">
+    <comp ref="K15">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFAE801</tstamp>
     </comp>
-    <comp ref="K216">
+    <comp ref="K16">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFAE807</tstamp>
     </comp>
-    <comp ref="K217">
+    <comp ref="K17">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFAE80D</tstamp>
     </comp>
-    <comp ref="K218">
+    <comp ref="K18">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFAE813</tstamp>
     </comp>
-    <comp ref="K219">
+    <comp ref="K19">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFAE819</tstamp>
     </comp>
-    <comp ref="K220">
+    <comp ref="K20">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFAE81F</tstamp>
     </comp>
-    <comp ref="K221">
+    <comp ref="K21">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFAE825</tstamp>
     </comp>
-    <comp ref="K222">
+    <comp ref="K22">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFAE82B</tstamp>
     </comp>
-    <comp ref="K223">
+    <comp ref="K23">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFAE831</tstamp>
     </comp>
-    <comp ref="K224">
+    <comp ref="K24">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFAE837</tstamp>
     </comp>
-    <comp ref="K225">
+    <comp ref="K25">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFAE83D</tstamp>
     </comp>
-    <comp ref="K226">
+    <comp ref="K26">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFAE843</tstamp>
     </comp>
-    <comp ref="K227">
+    <comp ref="K27">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFCA701</tstamp>
     </comp>
-    <comp ref="K228">
+    <comp ref="K28">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFCA707</tstamp>
     </comp>
-    <comp ref="K229">
+    <comp ref="K29">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFCA70D</tstamp>
     </comp>
-    <comp ref="K230">
+    <comp ref="K30">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFCA713</tstamp>
     </comp>
-    <comp ref="K231">
+    <comp ref="K31">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFCA719</tstamp>
     </comp>
-    <comp ref="K232">
+    <comp ref="K32">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFCA71F</tstamp>
     </comp>
-    <comp ref="K233">
+    <comp ref="K33">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFCA725</tstamp>
     </comp>
-    <comp ref="K234">
+    <comp ref="K34">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFCA72B</tstamp>
     </comp>
-    <comp ref="K235">
+    <comp ref="K35">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFCA731</tstamp>
     </comp>
-    <comp ref="K236">
+    <comp ref="K36">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFCA737</tstamp>
     </comp>
-    <comp ref="K237">
+    <comp ref="K37">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFCA73D</tstamp>
     </comp>
-    <comp ref="K238">
+    <comp ref="K38">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFCA743</tstamp>
     </comp>
-    <comp ref="K239">
+    <comp ref="K39">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFCA749</tstamp>
     </comp>
-    <comp ref="K240">
+    <comp ref="K40">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFCC08C</tstamp>
     </comp>
-    <comp ref="K241">
+    <comp ref="K41">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFE24DC</tstamp>
     </comp>
-    <comp ref="K242">
+    <comp ref="K42">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFE24E2</tstamp>
     </comp>
-    <comp ref="K243">
+    <comp ref="K43">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFE24E8</tstamp>
     </comp>
-    <comp ref="K244">
+    <comp ref="K44">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFE24EE</tstamp>
     </comp>
-    <comp ref="K245">
+    <comp ref="K45">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFE24F4</tstamp>
     </comp>
-    <comp ref="K246">
+    <comp ref="K46">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFE24FA</tstamp>
     </comp>
-    <comp ref="K247">
+    <comp ref="K47">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFE2500</tstamp>
     </comp>
-    <comp ref="K248">
+    <comp ref="K48">
       <value>KEYSW</value>
       <footprint>keyboard_parts:Kailh_MX_Socket</footprint>
       <libsource lib="keyboard_parts" part="KEYSW" description=""/>
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFE2506</tstamp>
     </comp>
-    <comp ref="D201">
+    <comp ref="D3">
       <value>D</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
@@ -740,7 +740,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFEC9B1</tstamp>
     </comp>
-    <comp ref="D208">
+    <comp ref="D4">
       <value>D</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
@@ -751,7 +751,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFF9D07</tstamp>
     </comp>
-    <comp ref="D215">
+    <comp ref="D5">
       <value>D</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
@@ -762,7 +762,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5DFFD10B</tstamp>
     </comp>
-    <comp ref="D222">
+    <comp ref="D6">
       <value>D</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
@@ -773,7 +773,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5E0018FF</tstamp>
     </comp>
-    <comp ref="D223">
+    <comp ref="D7">
       <value>D</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
@@ -784,7 +784,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5E002046</tstamp>
     </comp>
-    <comp ref="D224">
+    <comp ref="D8">
       <value>D</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
@@ -795,7 +795,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5E002801</tstamp>
     </comp>
-    <comp ref="D225">
+    <comp ref="D9">
       <value>D</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
@@ -806,7 +806,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5E002F4A</tstamp>
     </comp>
-    <comp ref="D226">
+    <comp ref="D10">
       <value>D</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
@@ -817,7 +817,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5E0037A7</tstamp>
     </comp>
-    <comp ref="D227">
+    <comp ref="D11">
       <value>D</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
@@ -828,7 +828,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5E003EF7</tstamp>
     </comp>
-    <comp ref="D228">
+    <comp ref="D12">
       <value>D</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
@@ -839,7 +839,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5E00461B</tstamp>
     </comp>
-    <comp ref="D229">
+    <comp ref="D13">
       <value>D</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
@@ -850,7 +850,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5E004D63</tstamp>
     </comp>
-    <comp ref="D230">
+    <comp ref="D14">
       <value>D</value>
       <footprint>Diode_SMD:D_SOD-123</footprint>
       <datasheet>~</datasheet>
@@ -861,7 +861,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5E0054FC</tstamp>
     </comp>
-    <comp ref="DD202">
+    <comp ref="DD1">
       <value>BAV70</value>
       <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
@@ -872,7 +872,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5F3D370A</tstamp>
     </comp>
-    <comp ref="DD209">
+    <comp ref="DD7">
       <value>BAV70</value>
       <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
@@ -883,7 +883,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5F5F922C</tstamp>
     </comp>
-    <comp ref="DD210">
+    <comp ref="DD8">
       <value>BAV70</value>
       <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
@@ -894,7 +894,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5F5F9CA8</tstamp>
     </comp>
-    <comp ref="DD211">
+    <comp ref="DD9">
       <value>BAV70</value>
       <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
@@ -905,7 +905,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5F5FA342</tstamp>
     </comp>
-    <comp ref="DD216">
+    <comp ref="DD13">
       <value>BAV70</value>
       <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
@@ -916,7 +916,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5F38477C</tstamp>
     </comp>
-    <comp ref="DD218">
+    <comp ref="DD15">
       <value>BAV70</value>
       <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
@@ -927,7 +927,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5F386051</tstamp>
     </comp>
-    <comp ref="DD219">
+    <comp ref="DD16">
       <value>BAV70</value>
       <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
@@ -938,7 +938,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5F3ECFC9</tstamp>
     </comp>
-    <comp ref="DD220">
+    <comp ref="DD17">
       <value>BAV70</value>
       <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
@@ -949,7 +949,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5F3FC7F3</tstamp>
     </comp>
-    <comp ref="DD221">
+    <comp ref="DD18">
       <value>BAV70</value>
       <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
@@ -960,7 +960,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5F3FD3A8</tstamp>
     </comp>
-    <comp ref="DD217">
+    <comp ref="DD14">
       <value>BAV70</value>
       <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
@@ -971,7 +971,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5F3856DE</tstamp>
     </comp>
-    <comp ref="DD212">
+    <comp ref="DD10">
       <value>BAV70</value>
       <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
@@ -982,7 +982,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5F5FFA12</tstamp>
     </comp>
-    <comp ref="DD213">
+    <comp ref="DD11">
       <value>BAV70</value>
       <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
@@ -993,7 +993,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5F5FE434</tstamp>
     </comp>
-    <comp ref="DD214">
+    <comp ref="DD12">
       <value>BAV70</value>
       <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
@@ -1004,7 +1004,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5F5FF196</tstamp>
     </comp>
-    <comp ref="DD207">
+    <comp ref="DD6">
       <value>BAV70</value>
       <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
@@ -1015,7 +1015,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5F5507D7</tstamp>
     </comp>
-    <comp ref="DD206">
+    <comp ref="DD5">
       <value>BAV70</value>
       <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
@@ -1026,7 +1026,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5F51E280</tstamp>
     </comp>
-    <comp ref="DD205">
+    <comp ref="DD4">
       <value>BAV70</value>
       <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
@@ -1037,7 +1037,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5F4E804A</tstamp>
     </comp>
-    <comp ref="DD204">
+    <comp ref="DD3">
       <value>BAV70</value>
       <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
@@ -1048,7 +1048,7 @@
       <sheetpath names="/switch matrix/" tstamps="/5DFA1F76/"/>
       <tstamp>5F4B2B3A</tstamp>
     </comp>
-    <comp ref="DD203">
+    <comp ref="DD2">
       <value>BAV70</value>
       <footprint>keyboard_parts:SOT23-3_HSOL</footprint>
       <datasheet>https://assets.nexperia.com/documents/data-sheet/BAV70_SER.pdf</datasheet>
@@ -1212,19 +1212,19 @@
         <pin num="2" name="A2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="MCU_ST_STM32F0" part="STM32F072C8Ux">
+    <libpart lib="MCU_ST_STM32F0" part="STM32F072C8Tx">
       <aliases>
-        <alias>STM32F072CBUx</alias>
+        <alias>STM32F072CBTx</alias>
       </aliases>
-      <description>ARM Cortex-M0 MCU, 64KB flash, 16KB RAM, 48MHz, 2-3.6V, 37 GPIO, UFQFPN-48</description>
+      <description>ARM Cortex-M0 MCU, 64KB flash, 16KB RAM, 48MHz, 2-3.6V, 37 GPIO, LQFP-48</description>
       <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00090510.pdf</docs>
       <footprints>
-        <fp>QFN*1EP*7x7mm*P0.5mm*</fp>
+        <fp>LQFP*7x7mm*P0.5mm*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">STM32F072C8Ux</field>
-        <field name="Footprint">Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm</field>
+        <field name="Value">STM32F072C8Tx</field>
+        <field name="Footprint">Package_QFP:LQFP-48_7x7mm_P0.5mm</field>
       </fields>
       <pins>
         <pin num="1" name="VBAT" type="power_in"/>
@@ -1275,7 +1275,6 @@
         <pin num="46" name="PB9" type="BiDi"/>
         <pin num="47" name="VSS" type="power_in"/>
         <pin num="48" name="VDD" type="power_in"/>
-        <pin num="49" name="VSS" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="Mechanical" part="MountingHole">
@@ -1524,502 +1523,501 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(U101-Pad34)">
-      <node ref="U101" pin="34"/>
-    </net>
-    <net code="2" name="Row_1">
-      <node ref="DD205" pin="3"/>
-      <node ref="DD206" pin="3"/>
-      <node ref="DD207" pin="3"/>
-      <node ref="U101" pin="39"/>
-      <node ref="D201" pin="1"/>
-      <node ref="DD203" pin="3"/>
-      <node ref="DD204" pin="3"/>
-      <node ref="DD202" pin="3"/>
-    </net>
-    <net code="3" name="Row_2">
-      <node ref="DD210" pin="3"/>
-      <node ref="U101" pin="40"/>
-      <node ref="D208" pin="1"/>
-      <node ref="DD209" pin="3"/>
-      <node ref="DD211" pin="3"/>
-      <node ref="DD214" pin="3"/>
-      <node ref="DD213" pin="3"/>
-      <node ref="DD212" pin="3"/>
-    </net>
-    <net code="4" name="Row_3">
-      <node ref="U101" pin="41"/>
-      <node ref="DD217" pin="3"/>
-      <node ref="DD219" pin="3"/>
-      <node ref="DD220" pin="3"/>
-      <node ref="DD221" pin="3"/>
-      <node ref="DD216" pin="3"/>
-      <node ref="DD218" pin="3"/>
-      <node ref="D215" pin="1"/>
-    </net>
-    <net code="5" name="Row_4">
-      <node ref="D222" pin="1"/>
-      <node ref="D224" pin="1"/>
-      <node ref="D225" pin="1"/>
-      <node ref="D226" pin="1"/>
-      <node ref="D227" pin="1"/>
-      <node ref="D228" pin="1"/>
-      <node ref="D229" pin="1"/>
-      <node ref="D230" pin="1"/>
-      <node ref="D223" pin="1"/>
-      <node ref="U101" pin="42"/>
-    </net>
-    <net code="6" name="Net-(U101-Pad26)">
-      <node ref="U101" pin="26"/>
-    </net>
-    <net code="7" name="Net-(U101-Pad37)">
-      <node ref="U101" pin="37"/>
-    </net>
-    <net code="8" name="Col_13">
-      <node ref="K226" pin="1"/>
-      <node ref="U101" pin="5"/>
-      <node ref="K239" pin="1"/>
-      <node ref="K213" pin="1"/>
-    </net>
-    <net code="9" name="Col_12">
-      <node ref="K248" pin="1"/>
-      <node ref="U101" pin="4"/>
-      <node ref="K212" pin="1"/>
-      <node ref="K225" pin="1"/>
-      <node ref="K238" pin="1"/>
-    </net>
-    <net code="10" name="Col_11">
-      <node ref="U101" pin="3"/>
-      <node ref="K237" pin="1"/>
-      <node ref="K247" pin="1"/>
-      <node ref="K211" pin="1"/>
-      <node ref="K224" pin="1"/>
-    </net>
-    <net code="11" name="Col_10">
-      <node ref="K236" pin="1"/>
-      <node ref="K223" pin="1"/>
-      <node ref="K210" pin="1"/>
-      <node ref="U101" pin="2"/>
-      <node ref="K246" pin="1"/>
-    </net>
-    <net code="12" name="Col_9">
-      <node ref="U101" pin="46"/>
-      <node ref="K235" pin="1"/>
-      <node ref="K222" pin="1"/>
-      <node ref="K209" pin="1"/>
-    </net>
-    <net code="13" name="Col_8">
-      <node ref="U101" pin="45"/>
-      <node ref="K221" pin="1"/>
-      <node ref="K208" pin="1"/>
-      <node ref="K234" pin="1"/>
-      <node ref="K245" pin="1"/>
-    </net>
-    <net code="14" name="Col_7">
-      <node ref="U101" pin="38"/>
-      <node ref="K240" pin="1"/>
-      <node ref="K233" pin="1"/>
-      <node ref="K207" pin="1"/>
-      <node ref="K220" pin="1"/>
-    </net>
-    <net code="15" name="GND">
-      <node ref="U102" pin="1"/>
-      <node ref="C107" pin="2"/>
-      <node ref="U101" pin="8"/>
-      <node ref="R101" pin="1"/>
-      <node ref="R102" pin="1"/>
-      <node ref="C104" pin="2"/>
-      <node ref="C101" pin="2"/>
-      <node ref="C102" pin="2"/>
-      <node ref="C103" pin="2"/>
-      <node ref="C106" pin="2"/>
-      <node ref="C108" pin="2"/>
-      <node ref="Q101" pin="2"/>
-      <node ref="C105" pin="2"/>
-      <node ref="R103" pin="1"/>
-      <node ref="D101" pin="2"/>
-      <node ref="C109" pin="1"/>
-      <node ref="J101" pin="A12"/>
-      <node ref="J101" pin="B12"/>
-      <node ref="J101" pin="B1"/>
-      <node ref="U103" pin="2"/>
-      <node ref="U101" pin="49"/>
-      <node ref="U101" pin="47"/>
-      <node ref="C110" pin="2"/>
-      <node ref="C111" pin="2"/>
-      <node ref="U101" pin="35"/>
-      <node ref="U101" pin="23"/>
-      <node ref="J101" pin="A1"/>
-      <node ref="R106" pin="1"/>
-      <node ref="R105" pin="1"/>
-      <node ref="C113" pin="2"/>
-    </net>
-    <net code="16" name="Col_6">
-      <node ref="K219" pin="1"/>
-      <node ref="U101" pin="25"/>
-      <node ref="K206" pin="1"/>
-      <node ref="K244" pin="1"/>
-      <node ref="K232" pin="1"/>
-    </net>
-    <net code="17" name="BOOT">
-      <node ref="R105" pin="2"/>
-      <node ref="SW101" pin="2"/>
-      <node ref="U101" pin="44"/>
-      <node ref="C112" pin="2"/>
-    </net>
-    <net code="18" name="Col_5">
-      <node ref="K231" pin="1"/>
-      <node ref="K205" pin="1"/>
-      <node ref="U101" pin="27"/>
-      <node ref="K218" pin="1"/>
-    </net>
-    <net code="19" name="D-">
-      <node ref="U101" pin="32"/>
-      <node ref="J101" pin="A7"/>
-      <node ref="U103" pin="1"/>
-      <node ref="J101" pin="B7"/>
-    </net>
-    <net code="20" name="Col_4">
-      <node ref="K217" pin="1"/>
-      <node ref="K204" pin="1"/>
-      <node ref="K230" pin="1"/>
-      <node ref="K243" pin="1"/>
-      <node ref="U101" pin="28"/>
-    </net>
-    <net code="21" name="Col_3">
-      <node ref="K242" pin="1"/>
-      <node ref="U101" pin="29"/>
-      <node ref="K203" pin="1"/>
-      <node ref="K229" pin="1"/>
-      <node ref="K216" pin="1"/>
-    </net>
-    <net code="22" name="Col_2">
-      <node ref="K228" pin="1"/>
-      <node ref="U101" pin="30"/>
-      <node ref="K215" pin="1"/>
-      <node ref="K202" pin="1"/>
-      <node ref="K241" pin="1"/>
-    </net>
-    <net code="23" name="Col_1">
-      <node ref="U101" pin="31"/>
-      <node ref="K214" pin="1"/>
-      <node ref="K201" pin="1"/>
-      <node ref="K227" pin="1"/>
-    </net>
-    <net code="24" name="+3V3">
-      <node ref="C108" pin="1"/>
-      <node ref="U102" pin="2"/>
-      <node ref="C111" pin="1"/>
-      <node ref="D102" pin="2"/>
-      <node ref="U101" pin="9"/>
-      <node ref="C105" pin="1"/>
-      <node ref="C107" pin="1"/>
-      <node ref="SW101" pin="1"/>
-      <node ref="C103" pin="1"/>
-      <node ref="C102" pin="1"/>
-      <node ref="C101" pin="1"/>
-      <node ref="C104" pin="1"/>
-      <node ref="U101" pin="36"/>
-      <node ref="U101" pin="48"/>
-      <node ref="U101" pin="1"/>
-      <node ref="U101" pin="24"/>
-      <node ref="R104" pin="1"/>
-      <node ref="C106" pin="1"/>
-    </net>
-    <net code="25" name="NRST">
-      <node ref="U101" pin="7"/>
-      <node ref="C113" pin="1"/>
-      <node ref="R104" pin="2"/>
-      <node ref="Q101" pin="3"/>
-    </net>
-    <net code="26" name="Net-(C112-Pad1)">
-      <node ref="Q101" pin="1"/>
-      <node ref="C112" pin="1"/>
-      <node ref="R106" pin="2"/>
-    </net>
-    <net code="27" name="VBUS">
-      <node ref="J101" pin="A9"/>
-      <node ref="J101" pin="B4"/>
-      <node ref="J101" pin="A4"/>
-      <node ref="F101" pin="2"/>
-      <node ref="J101" pin="B9"/>
-    </net>
-    <net code="28" name="D+">
-      <node ref="U101" pin="33"/>
-      <node ref="J101" pin="B6"/>
-      <node ref="J101" pin="A6"/>
-      <node ref="U103" pin="4"/>
-    </net>
-    <net code="29" name="+5V">
-      <node ref="U102" pin="3"/>
-      <node ref="C110" pin="1"/>
-      <node ref="D102" pin="1"/>
-      <node ref="U103" pin="5"/>
-      <node ref="F101" pin="1"/>
-      <node ref="D101" pin="1"/>
-    </net>
-    <net code="30" name="Net-(U103-Pad6)">
-      <node ref="U103" pin="6"/>
-    </net>
-    <net code="31" name="Net-(U103-Pad3)">
-      <node ref="U103" pin="3"/>
-    </net>
-    <net code="32" name="Net-(C109-Pad2)">
-      <node ref="J102" pin="1"/>
-      <node ref="R103" pin="2"/>
-      <node ref="C109" pin="2"/>
-      <node ref="J101" pin="S1"/>
-    </net>
-    <net code="33" name="Net-(U101-Pad19)">
-      <node ref="U101" pin="19"/>
-    </net>
-    <net code="34" name="Net-(U101-Pad22)">
-      <node ref="U101" pin="22"/>
-    </net>
-    <net code="35" name="Net-(U101-Pad21)">
-      <node ref="U101" pin="21"/>
-    </net>
-    <net code="36" name="Net-(U101-Pad20)">
-      <node ref="U101" pin="20"/>
-    </net>
-    <net code="37" name="Net-(U101-Pad18)">
-      <node ref="U101" pin="18"/>
-    </net>
-    <net code="38" name="Net-(U101-Pad17)">
-      <node ref="U101" pin="17"/>
-    </net>
-    <net code="39" name="Net-(U101-Pad16)">
-      <node ref="U101" pin="16"/>
-    </net>
-    <net code="40" name="Net-(U101-Pad15)">
-      <node ref="U101" pin="15"/>
-    </net>
-    <net code="41" name="Net-(U101-Pad14)">
-      <node ref="U101" pin="14"/>
-    </net>
-    <net code="42" name="Net-(U101-Pad13)">
-      <node ref="U101" pin="13"/>
-    </net>
-    <net code="43" name="Net-(U101-Pad12)">
-      <node ref="U101" pin="12"/>
-    </net>
-    <net code="44" name="Net-(U101-Pad11)">
-      <node ref="U101" pin="11"/>
-    </net>
-    <net code="45" name="Net-(U101-Pad10)">
-      <node ref="U101" pin="10"/>
-    </net>
-    <net code="46" name="Net-(U101-Pad6)">
-      <node ref="U101" pin="6"/>
-    </net>
-    <net code="47" name="Net-(U101-Pad43)">
-      <node ref="U101" pin="43"/>
-    </net>
-    <net code="48" name="Net-(J101-PadB8)">
-      <node ref="J101" pin="B8"/>
-    </net>
-    <net code="49" name="Net-(J101-PadA8)">
-      <node ref="J101" pin="A8"/>
-    </net>
-    <net code="50" name="Net-(J101-PadA5)">
-      <node ref="R101" pin="2"/>
-      <node ref="J101" pin="A5"/>
-    </net>
-    <net code="51" name="Net-(J101-PadB5)">
-      <node ref="R102" pin="2"/>
-      <node ref="J101" pin="B5"/>
-    </net>
-    <net code="52" name="Net-(DD212-Pad2)">
-      <node ref="K222" pin="2"/>
-      <node ref="DD212" pin="2"/>
-    </net>
-    <net code="53" name="Net-(DD212-Pad1)">
-      <node ref="DD212" pin="1"/>
-      <node ref="K221" pin="2"/>
-    </net>
-    <net code="54" name="Net-(DD211-Pad2)">
-      <node ref="DD211" pin="2"/>
-      <node ref="K219" pin="2"/>
-    </net>
-    <net code="55" name="Net-(DD211-Pad1)">
-      <node ref="DD211" pin="1"/>
-      <node ref="K218" pin="2"/>
-    </net>
-    <net code="56" name="Net-(DD210-Pad2)">
-      <node ref="DD210" pin="2"/>
-      <node ref="K217" pin="2"/>
-    </net>
-    <net code="57" name="Net-(DD213-Pad1)">
-      <node ref="DD213" pin="1"/>
-      <node ref="K223" pin="2"/>
-    </net>
-    <net code="58" name="Net-(DD213-Pad2)">
-      <node ref="K224" pin="2"/>
-      <node ref="DD213" pin="2"/>
-    </net>
-    <net code="59" name="Net-(DD214-Pad1)">
-      <node ref="DD214" pin="1"/>
-      <node ref="K225" pin="2"/>
-    </net>
-    <net code="60" name="Net-(DD214-Pad2)">
-      <node ref="DD214" pin="2"/>
-      <node ref="K226" pin="2"/>
-    </net>
-    <net code="61" name="Net-(D201-Pad2)">
-      <node ref="K207" pin="2"/>
-      <node ref="D201" pin="2"/>
-    </net>
-    <net code="62" name="Net-(DD206-Pad1)">
-      <node ref="DD206" pin="1"/>
-      <node ref="K210" pin="2"/>
-    </net>
-    <net code="63" name="Net-(DD206-Pad2)">
-      <node ref="DD206" pin="2"/>
-      <node ref="K211" pin="2"/>
-    </net>
-    <net code="64" name="Net-(DD205-Pad2)">
-      <node ref="K209" pin="2"/>
-      <node ref="DD205" pin="2"/>
-    </net>
-    <net code="65" name="Net-(DD205-Pad1)">
-      <node ref="DD205" pin="1"/>
-      <node ref="K208" pin="2"/>
-    </net>
-    <net code="66" name="Net-(DD209-Pad1)">
-      <node ref="DD209" pin="1"/>
-      <node ref="K214" pin="2"/>
-    </net>
-    <net code="67" name="Net-(DD209-Pad2)">
-      <node ref="DD209" pin="2"/>
-      <node ref="K215" pin="2"/>
-    </net>
-    <net code="68" name="Net-(DD210-Pad1)">
-      <node ref="K216" pin="2"/>
-      <node ref="DD210" pin="1"/>
-    </net>
-    <net code="69" name="Net-(DD203-Pad2)">
-      <node ref="DD203" pin="2"/>
-      <node ref="K204" pin="2"/>
-    </net>
-    <net code="70" name="Net-(DD204-Pad2)">
-      <node ref="K206" pin="2"/>
-      <node ref="DD204" pin="2"/>
-    </net>
-    <net code="71" name="Net-(DD204-Pad1)">
-      <node ref="DD204" pin="1"/>
-      <node ref="K205" pin="2"/>
-    </net>
-    <net code="72" name="Net-(DD203-Pad1)">
-      <node ref="K203" pin="2"/>
-      <node ref="DD203" pin="1"/>
-    </net>
-    <net code="73" name="Net-(DD217-Pad2)">
-      <node ref="DD217" pin="2"/>
-      <node ref="K229" pin="2"/>
-    </net>
-    <net code="74" name="Net-(DD217-Pad1)">
-      <node ref="K230" pin="2"/>
-      <node ref="DD217" pin="1"/>
-    </net>
-    <net code="75" name="Net-(DD216-Pad1)">
-      <node ref="K228" pin="2"/>
-      <node ref="DD216" pin="1"/>
-    </net>
-    <net code="76" name="Net-(DD207-Pad2)">
-      <node ref="DD207" pin="2"/>
-      <node ref="K213" pin="2"/>
-    </net>
-    <net code="77" name="Net-(DD207-Pad1)">
-      <node ref="K212" pin="2"/>
-      <node ref="DD207" pin="1"/>
-    </net>
-    <net code="78" name="Net-(DD216-Pad2)">
-      <node ref="K227" pin="2"/>
-      <node ref="DD216" pin="2"/>
-    </net>
-    <net code="79" name="Net-(DD218-Pad1)">
-      <node ref="K232" pin="2"/>
-      <node ref="DD218" pin="1"/>
-    </net>
-    <net code="80" name="Net-(DD218-Pad2)">
-      <node ref="DD218" pin="2"/>
-      <node ref="K231" pin="2"/>
-    </net>
-    <net code="81" name="Net-(DD221-Pad2)">
-      <node ref="DD221" pin="2"/>
-      <node ref="K238" pin="2"/>
-    </net>
-    <net code="82" name="Net-(DD219-Pad2)">
-      <node ref="K234" pin="2"/>
-      <node ref="DD219" pin="2"/>
-    </net>
-    <net code="83" name="Net-(DD219-Pad1)">
-      <node ref="K235" pin="2"/>
-      <node ref="DD219" pin="1"/>
-    </net>
-    <net code="84" name="Net-(DD220-Pad2)">
-      <node ref="DD220" pin="2"/>
-      <node ref="K236" pin="2"/>
-    </net>
-    <net code="85" name="Net-(DD220-Pad1)">
-      <node ref="K237" pin="2"/>
-      <node ref="DD220" pin="1"/>
-    </net>
-    <net code="86" name="Net-(DD221-Pad1)">
-      <node ref="DD221" pin="1"/>
-      <node ref="K239" pin="2"/>
-    </net>
-    <net code="87" name="Net-(D223-Pad2)">
-      <node ref="K241" pin="2"/>
-      <node ref="D223" pin="2"/>
-    </net>
-    <net code="88" name="Net-(D229-Pad2)">
-      <node ref="D229" pin="2"/>
-      <node ref="K247" pin="2"/>
-    </net>
-    <net code="89" name="Net-(D228-Pad2)">
-      <node ref="D228" pin="2"/>
-      <node ref="K246" pin="2"/>
-    </net>
-    <net code="90" name="Net-(D227-Pad2)">
-      <node ref="D227" pin="2"/>
-      <node ref="K245" pin="2"/>
-    </net>
-    <net code="91" name="Net-(D226-Pad2)">
-      <node ref="K244" pin="2"/>
-      <node ref="D226" pin="2"/>
-    </net>
-    <net code="92" name="Net-(D225-Pad2)">
-      <node ref="D225" pin="2"/>
-      <node ref="K243" pin="2"/>
-    </net>
-    <net code="93" name="Net-(D224-Pad2)">
-      <node ref="K242" pin="2"/>
-      <node ref="D224" pin="2"/>
-    </net>
-    <net code="94" name="Net-(D222-Pad2)">
-      <node ref="D222" pin="2"/>
-      <node ref="K240" pin="2"/>
-    </net>
-    <net code="95" name="Net-(D215-Pad2)">
-      <node ref="D215" pin="2"/>
-      <node ref="K233" pin="2"/>
-    </net>
-    <net code="96" name="Net-(D208-Pad2)">
-      <node ref="K220" pin="2"/>
-      <node ref="D208" pin="2"/>
-    </net>
-    <net code="97" name="Net-(DD202-Pad2)">
-      <node ref="DD202" pin="2"/>
-      <node ref="K202" pin="2"/>
-    </net>
-    <net code="98" name="Net-(DD202-Pad1)">
-      <node ref="DD202" pin="1"/>
-      <node ref="K201" pin="2"/>
-    </net>
-    <net code="99" name="Net-(D230-Pad2)">
-      <node ref="K248" pin="2"/>
-      <node ref="D230" pin="2"/>
+    <net code="1" name="VBUS">
+      <node ref="F1" pin="2"/>
+      <node ref="J1" pin="B9"/>
+      <node ref="J1" pin="B4"/>
+      <node ref="J1" pin="A9"/>
+      <node ref="J1" pin="A4"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="F1" pin="1"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="3" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="4" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="5" name="NRST">
+      <node ref="U1" pin="7"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="C13" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="6" name="Col_9">
+      <node ref="K22" pin="1"/>
+      <node ref="K9" pin="1"/>
+      <node ref="U1" pin="46"/>
+      <node ref="K35" pin="1"/>
+    </net>
+    <net code="7" name="Col_8">
+      <node ref="U1" pin="45"/>
+      <node ref="K45" pin="1"/>
+      <node ref="K34" pin="1"/>
+      <node ref="K8" pin="1"/>
+      <node ref="K21" pin="1"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="R5" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="J1" pin="A12"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="J1" pin="B12"/>
+      <node ref="J1" pin="B1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="35"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="47"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="J1" pin="A1"/>
+      <node ref="U1" pin="23"/>
+      <node ref="U3" pin="2"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="9" name="+3V3">
+      <node ref="U2" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="U1" pin="24"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U1" pin="36"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="9"/>
+      <node ref="C1" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U1" pin="48"/>
+    </net>
+    <net code="10" name="Col_12">
+      <node ref="K48" pin="1"/>
+      <node ref="K12" pin="1"/>
+      <node ref="K38" pin="1"/>
+      <node ref="K25" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="11" name="Net-(U1-Pad37)">
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="12" name="Row_1">
+      <node ref="DD4" pin="3"/>
+      <node ref="DD1" pin="3"/>
+      <node ref="D3" pin="1"/>
+      <node ref="DD2" pin="3"/>
+      <node ref="DD3" pin="3"/>
+      <node ref="U1" pin="39"/>
+      <node ref="DD6" pin="3"/>
+      <node ref="DD5" pin="3"/>
+    </net>
+    <net code="13" name="Row_2">
+      <node ref="DD7" pin="3"/>
+      <node ref="DD9" pin="3"/>
+      <node ref="DD8" pin="3"/>
+      <node ref="DD11" pin="3"/>
+      <node ref="DD10" pin="3"/>
+      <node ref="DD12" pin="3"/>
+      <node ref="D4" pin="1"/>
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="14" name="Row_3">
+      <node ref="DD18" pin="3"/>
+      <node ref="DD14" pin="3"/>
+      <node ref="U1" pin="41"/>
+      <node ref="D5" pin="1"/>
+      <node ref="DD17" pin="3"/>
+      <node ref="DD16" pin="3"/>
+      <node ref="DD15" pin="3"/>
+      <node ref="DD13" pin="3"/>
+    </net>
+    <net code="15" name="Row_4">
+      <node ref="U1" pin="42"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad34)">
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="18" name="Col_13">
+      <node ref="K26" pin="1"/>
+      <node ref="K13" pin="1"/>
+      <node ref="K39" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="19" name="Col_11">
+      <node ref="K47" pin="1"/>
+      <node ref="K37" pin="1"/>
+      <node ref="K11" pin="1"/>
+      <node ref="K24" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="20" name="Col_10">
+      <node ref="K10" pin="1"/>
+      <node ref="K46" pin="1"/>
+      <node ref="K23" pin="1"/>
+      <node ref="K36" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="21" name="Col_7">
+      <node ref="K20" pin="1"/>
+      <node ref="K40" pin="1"/>
+      <node ref="K7" pin="1"/>
+      <node ref="K33" pin="1"/>
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="22" name="Col_6">
+      <node ref="K19" pin="1"/>
+      <node ref="U1" pin="25"/>
+      <node ref="K6" pin="1"/>
+      <node ref="K32" pin="1"/>
+      <node ref="K44" pin="1"/>
+    </net>
+    <net code="23" name="BOOT">
+      <node ref="SW1" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U1" pin="44"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="24" name="Col_5">
+      <node ref="K31" pin="1"/>
+      <node ref="U1" pin="27"/>
+      <node ref="K5" pin="1"/>
+      <node ref="K18" pin="1"/>
+    </net>
+    <net code="25" name="Col_4">
+      <node ref="K4" pin="1"/>
+      <node ref="K43" pin="1"/>
+      <node ref="K17" pin="1"/>
+      <node ref="U1" pin="28"/>
+      <node ref="K30" pin="1"/>
+    </net>
+    <net code="26" name="Col_3">
+      <node ref="K16" pin="1"/>
+      <node ref="U1" pin="29"/>
+      <node ref="K42" pin="1"/>
+      <node ref="K3" pin="1"/>
+      <node ref="K29" pin="1"/>
+    </net>
+    <net code="27" name="Col_2">
+      <node ref="K28" pin="1"/>
+      <node ref="K15" pin="1"/>
+      <node ref="K41" pin="1"/>
+      <node ref="K2" pin="1"/>
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="28" name="Col_1">
+      <node ref="K1" pin="1"/>
+      <node ref="K27" pin="1"/>
+      <node ref="U1" pin="31"/>
+      <node ref="K14" pin="1"/>
+    </net>
+    <net code="29" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="30" name="Net-(U1-Pad22)">
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="31" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="32" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="33" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="34" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="35" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="36" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="37" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="38" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="39" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="40" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="41" name="Net-(U1-Pad43)">
+      <node ref="U1" pin="43"/>
+    </net>
+    <net code="42" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="43" name="Net-(U1-Pad10)">
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="44" name="Net-(C12-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C12" pin="1"/>
+    </net>
+    <net code="45" name="D-">
+      <node ref="U1" pin="32"/>
+      <node ref="J1" pin="B7"/>
+      <node ref="J1" pin="A7"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="46" name="Net-(C9-Pad2)">
+      <node ref="J2" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="J1" pin="S1"/>
+    </net>
+    <net code="47" name="Net-(J1-PadB8)">
+      <node ref="J1" pin="B8"/>
+    </net>
+    <net code="48" name="Net-(J1-PadB5)">
+      <node ref="R2" pin="2"/>
+      <node ref="J1" pin="B5"/>
+    </net>
+    <net code="49" name="Net-(J1-PadA8)">
+      <node ref="J1" pin="A8"/>
+    </net>
+    <net code="50" name="Net-(J1-PadA5)">
+      <node ref="J1" pin="A5"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="51" name="D+">
+      <node ref="U1" pin="33"/>
+      <node ref="U3" pin="4"/>
+      <node ref="J1" pin="A6"/>
+      <node ref="J1" pin="B6"/>
+    </net>
+    <net code="52" name="Net-(DD10-Pad2)">
+      <node ref="DD10" pin="2"/>
+      <node ref="K22" pin="2"/>
+    </net>
+    <net code="53" name="Net-(DD10-Pad1)">
+      <node ref="DD10" pin="1"/>
+      <node ref="K21" pin="2"/>
+    </net>
+    <net code="54" name="Net-(DD9-Pad2)">
+      <node ref="K19" pin="2"/>
+      <node ref="DD9" pin="2"/>
+    </net>
+    <net code="55" name="Net-(DD9-Pad1)">
+      <node ref="DD9" pin="1"/>
+      <node ref="K18" pin="2"/>
+    </net>
+    <net code="56" name="Net-(DD8-Pad2)">
+      <node ref="K17" pin="2"/>
+      <node ref="DD8" pin="2"/>
+    </net>
+    <net code="57" name="Net-(DD11-Pad1)">
+      <node ref="K23" pin="2"/>
+      <node ref="DD11" pin="1"/>
+    </net>
+    <net code="58" name="Net-(DD11-Pad2)">
+      <node ref="DD11" pin="2"/>
+      <node ref="K24" pin="2"/>
+    </net>
+    <net code="59" name="Net-(DD12-Pad1)">
+      <node ref="K25" pin="2"/>
+      <node ref="DD12" pin="1"/>
+    </net>
+    <net code="60" name="Net-(DD12-Pad2)">
+      <node ref="DD12" pin="2"/>
+      <node ref="K26" pin="2"/>
+    </net>
+    <net code="61" name="Net-(D3-Pad2)">
+      <node ref="K7" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="62" name="Net-(DD5-Pad1)">
+      <node ref="DD5" pin="1"/>
+      <node ref="K10" pin="2"/>
+    </net>
+    <net code="63" name="Net-(DD5-Pad2)">
+      <node ref="K11" pin="2"/>
+      <node ref="DD5" pin="2"/>
+    </net>
+    <net code="64" name="Net-(DD4-Pad2)">
+      <node ref="DD4" pin="2"/>
+      <node ref="K9" pin="2"/>
+    </net>
+    <net code="65" name="Net-(DD4-Pad1)">
+      <node ref="K8" pin="2"/>
+      <node ref="DD4" pin="1"/>
+    </net>
+    <net code="66" name="Net-(DD7-Pad1)">
+      <node ref="DD7" pin="1"/>
+      <node ref="K14" pin="2"/>
+    </net>
+    <net code="67" name="Net-(DD7-Pad2)">
+      <node ref="DD7" pin="2"/>
+      <node ref="K15" pin="2"/>
+    </net>
+    <net code="68" name="Net-(DD8-Pad1)">
+      <node ref="DD8" pin="1"/>
+      <node ref="K16" pin="2"/>
+    </net>
+    <net code="69" name="Net-(DD2-Pad2)">
+      <node ref="DD2" pin="2"/>
+      <node ref="K4" pin="2"/>
+    </net>
+    <net code="70" name="Net-(DD3-Pad2)">
+      <node ref="DD3" pin="2"/>
+      <node ref="K6" pin="2"/>
+    </net>
+    <net code="71" name="Net-(DD3-Pad1)">
+      <node ref="K5" pin="2"/>
+      <node ref="DD3" pin="1"/>
+    </net>
+    <net code="72" name="Net-(DD2-Pad1)">
+      <node ref="K3" pin="2"/>
+      <node ref="DD2" pin="1"/>
+    </net>
+    <net code="73" name="Net-(DD14-Pad2)">
+      <node ref="K29" pin="2"/>
+      <node ref="DD14" pin="2"/>
+    </net>
+    <net code="74" name="Net-(DD14-Pad1)">
+      <node ref="K30" pin="2"/>
+      <node ref="DD14" pin="1"/>
+    </net>
+    <net code="75" name="Net-(DD13-Pad1)">
+      <node ref="DD13" pin="1"/>
+      <node ref="K28" pin="2"/>
+    </net>
+    <net code="76" name="Net-(DD6-Pad2)">
+      <node ref="DD6" pin="2"/>
+      <node ref="K13" pin="2"/>
+    </net>
+    <net code="77" name="Net-(DD6-Pad1)">
+      <node ref="DD6" pin="1"/>
+      <node ref="K12" pin="2"/>
+    </net>
+    <net code="78" name="Net-(DD13-Pad2)">
+      <node ref="DD13" pin="2"/>
+      <node ref="K27" pin="2"/>
+    </net>
+    <net code="79" name="Net-(DD15-Pad1)">
+      <node ref="K32" pin="2"/>
+      <node ref="DD15" pin="1"/>
+    </net>
+    <net code="80" name="Net-(DD15-Pad2)">
+      <node ref="DD15" pin="2"/>
+      <node ref="K31" pin="2"/>
+    </net>
+    <net code="81" name="Net-(DD18-Pad2)">
+      <node ref="K38" pin="2"/>
+      <node ref="DD18" pin="2"/>
+    </net>
+    <net code="82" name="Net-(DD16-Pad2)">
+      <node ref="K34" pin="2"/>
+      <node ref="DD16" pin="2"/>
+    </net>
+    <net code="83" name="Net-(DD16-Pad1)">
+      <node ref="DD16" pin="1"/>
+      <node ref="K35" pin="2"/>
+    </net>
+    <net code="84" name="Net-(DD17-Pad2)">
+      <node ref="K36" pin="2"/>
+      <node ref="DD17" pin="2"/>
+    </net>
+    <net code="85" name="Net-(DD17-Pad1)">
+      <node ref="DD17" pin="1"/>
+      <node ref="K37" pin="2"/>
+    </net>
+    <net code="86" name="Net-(DD18-Pad1)">
+      <node ref="K39" pin="2"/>
+      <node ref="DD18" pin="1"/>
+    </net>
+    <net code="87" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="K41" pin="2"/>
+    </net>
+    <net code="88" name="Net-(D13-Pad2)">
+      <node ref="K47" pin="2"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="89" name="Net-(D12-Pad2)">
+      <node ref="K46" pin="2"/>
+      <node ref="D12" pin="2"/>
+    </net>
+    <net code="90" name="Net-(D11-Pad2)">
+      <node ref="K45" pin="2"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="91" name="Net-(D10-Pad2)">
+      <node ref="K44" pin="2"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="92" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2"/>
+      <node ref="K43" pin="2"/>
+    </net>
+    <net code="93" name="Net-(D8-Pad2)">
+      <node ref="K42" pin="2"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="94" name="Net-(D6-Pad2)">
+      <node ref="K40" pin="2"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="95" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="K33" pin="2"/>
+    </net>
+    <net code="96" name="Net-(D4-Pad2)">
+      <node ref="K20" pin="2"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="97" name="Net-(DD1-Pad2)">
+      <node ref="K2" pin="2"/>
+      <node ref="DD1" pin="2"/>
+    </net>
+    <net code="98" name="Net-(DD1-Pad1)">
+      <node ref="DD1" pin="1"/>
+      <node ref="K1" pin="2"/>
+    </net>
+    <net code="99" name="Net-(D14-Pad2)">
+      <node ref="D14" pin="2"/>
+      <node ref="K48" pin="2"/>
     </net>
   </nets>
 </export>
